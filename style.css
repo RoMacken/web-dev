@@ -14,8 +14,15 @@ header{
     top: 0;
 }
 
+.logo{
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 80px;
+  float: left;
+}
+
 ul {
-    position: sticky;
+    position: relative;
     top: 0px;
     width: 100%;
     list-style-type: none;
