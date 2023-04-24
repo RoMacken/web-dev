@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="./style.css" rel="stylesheet" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beadandó</title>
+    <link rel="icon" type="image/jpg" href="img\logo-removebg-preview.jpg">
+    <title>Örökbefogadható állatok</title>
 </head>
 <body>
     <header>
-        <a href="./index.html" target="_blank"><img div class="logo" src="pics\logo-removebg-preview.jpg" alt="allat logo"></a>
+        <a href="./index.html"><img div class="logo" src="img\logo-removebg-preview.jpg" alt="allat logo"></a>
         <h1><p>Örökbefogadható állatok</p></h1>
     </header>
 
@@ -22,19 +23,29 @@
     <center><table>
         <tr>
             <td>
-                <img src="pics\szekszard.jpg" alt="Szekszárdi Kutyamenhely">
+                <img div class="left" src="img\szekszard.jpg" alt="Szekszárdi Kutyamenhely">
+                <div class="justifiedtext"><p>Szívemhez legközelebb álló menhely, hiszen Szekszárdon nőttem fel és 
+                    többször voltunk a menhelyen kutyaházakat festeni. 1998 óta üzemel és 
+                    jelenleg 216 kutya van náluk, akik örökbefogadásra várnak. Itt az örökbefogadást 
+                    komolyan veszik, a leendő gazdának állandó lakcímmel és saját keresettel is 
+                    rendelkeznie kell.</p></div>
                 <h2 div class="title"><p>Szekszárdi Kutyamenhely</p></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </td>
             <td>
-                <img src="pics\fori.png" alt="FÖRI telepe">
                 <h2 div class="title"><p>FÖRI telepe</p></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img class="img" src="img\fori.png" alt="FÖRI telepe">
+                <div class="text"><p>Fővárosi Önkormányzati Rendészeti Igazgatóság Önkormányzati Állatvédelmi 
+                    Őrszolgálata, hozzájuk lehet Budapesten belül talált állatokat vinni, 
+                    továbbá örökbe is lehet fogadni tőlük egy kisebb összeg fejében.</p></div>
             </td>
             <td>
-                <img src="pics\noe.jpg" alt="Noé Állatotthon">
+                <img class="img" src="img\noe.jpg" alt="Noé Állatotthon">
                 <h2 div class="title"><p>Noé állatotthon</p></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="text"><p>Ebben a budapesti állatotthonban nem csak kutyák találhatóak meg, 
+                    hanem mindenféle más háziállat. Jelen pillanatban 1121 védencük van, 
+                    ebből 572 állat állandó lakójuk. Bíztatnak mindenkit az örökbefogadásra, 
+                    viszont nem elpasszolni szeretnék az állatokat, felelős gazdát keresnek 
+                    az összesnek.</p></div>
             </td>
         </tr>
         
@@ -42,14 +53,25 @@
             <td>
             </td>
             <td>
-                <form>
-                    <label for="fname">Név:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Megjegyzés:</label><br>
-                    <input type="text" id="lname" name="lname"><br>
+                <br><br><br><br><br>
+                <form id="form" action="mailto:lotzgabriella@gmail.com" name="feedback" method="post">
+                    <label for="name">Név:</label><br>
+                    <input type="text" id="name" name="name" required size="30" maxlength="60"><br><br>
+                    <label for="lsex">Nem:</label><br>
+                    <input type="radio" id="no" name="lsex" required>
+                    <label for="no">Nő</label><br>
+                    <input type="radio" id="ferfi" name="lsex" required>
+                    <label for="ferfi">Férfi</label><br>
+                    <input type="radio" id="egyeb" name="lsex" required>
+                    <label for="egyeb">Egyéb</label><br><br>
+                    <label for="lname">Megjegyzés:<br>
+                    <textarea name="feedback" form="form" maxlength="200" placeholder="Maximum 200 karakter" required></textarea></label><br>
+                    <label for="not_robot">Nem vagyok robot:</label>
+                    <input type="checkbox" id="not_robot" name="not_robot" value="True" size="1221" required><br>
                     <br>
-                    <button>Submit</button><br>
-                  </form>
+                    <input type="reset" value="Alaphelyzetbe állítás">
+                    <input type="submit" value="Elküldés">
+                  </form><br>
             </td>
         </tr>
     </table></center>

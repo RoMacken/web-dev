@@ -1,36 +1,42 @@
 body{
-    background-color: #cc9767;
+    background-color: #F5F5DD;
     position: relative;
     margin: 0;
-    padding-bottom: 40px;
+    margin-top: 0;
 }
 
 header{
-    position: fixed;
     width: 100%;
-    height: 100px;
     background-color: #F5F5DD;
     text-align: center;
-    top: 0;
+    margin-bottom: 5vw;
+    margin-top: 1vw;
+}
+
+h1{
+    margin: 0;
+    font-size: 3vw;
+}
+p{
+    margin: 0;
 }
 
 .logo{
-  margin-top: 10px;
-  margin-left: 20px;
-  height: 80px;
-  float: left;
+    margin-top: 0%;
+    margin-left: 0.5%;
+    height: 7vw;
+    float: left;
 }
 
 ul {
     position: relative;
-    top: 0px;
     width: 100%;
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ae6e4e;
-    margin-top: 100px;
+    background-color: #f5dcf5;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   
   li {
@@ -51,28 +57,110 @@ ul {
 
 table{
     width: 95%;
-    background-color: beige;
-    margin-left: 20px;
-    margin-right: 20px;
+    background-color: #dcf5f5;
+    margin-left: 2%;
+    margin-right: 2%;
     position: relative;
     text-align: center;
     table-layout: fixed;
 }
 
-.title{
-    font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
-}
+  .img{
+      width: 70%;
+      height: 100%;
+      margin-bottom: 2%;
+  }
 
-.urlap{
-    padding-top: 20px;
-}
+  .left{
+      width: 50%;
+      height: 100%;
+      float: left;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-top: 0;
+      margin-bottom: 0.5%;
+  }
+
+  .video{
+      width: 70%;
+      height: 100%;
+      margin-bottom: 2%;
+  }
+
+  .justifiedtext{
+      font-size: 1.5vw;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: justify;
+      text-justify: inter-word;
+      margin-left: 4%;
+      margin-right: 4%;
+  }
+  
+  .text{
+      font-size: 1.5vw;
+      font-family: 'Times New Roman', Times, serif;
+      text-justify: inter-word;
+      margin-left: 4%;
+      margin-right: 4%;
+  }
+
+  .contact{
+      font-size: 1.5vw;
+      line-height: 2.5vw;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: justify;
+      text-justify: inter-word;
+      margin-left: 4%;
+      margin-right: 4%;
+      margin-bottom: 2%;
+  }
+
+  .title{
+      font-size: 3vw;
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  .urlap{
+      padding-top: 10%;
+      text-align: left;
+  }
+
+  .urlap input{
+      height: 100%;
+      resize: none;
+      background-color: #f5dcf5;
+      font-size: 1.5vw;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: justify;
+      text-justify: inter-word;
+  }
+
+  .urlap label{
+      font-size: 1.5vw;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: justify;
+      text-justify: inter-word;
+  }
+
+  textarea{
+      width: 100%;
+      height: 100%;
+      resize: none;
+      background-color: #f5dcf5;
+      font-size: 1.5vw;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: justify;
+      text-justify: inter-word;
+  }
+  #name{
+      width: 100%;
+  }
 
 footer{
-    background-color: #ae6e4e;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 50px;;
+    background-color: #f5dcf5;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
 }
