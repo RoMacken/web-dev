@@ -1,8 +1,8 @@
-/* body{ */
-    /* background-image: url('img/szeki1.jpg'); */
-    /* background-size: 50%;
+body{
+    background-image: url('img/szeki1.jpg');
+    background-size: 50%;
     background-repeat: repeat;
-} */
+}
 
 #maintitle{
     font-size: 3vw;
@@ -15,9 +15,16 @@
 
 .row {
     display: flex;
+    background-color: #dcf5f5;
   }
   
 .column {
     flex: 33.33%;
-    margin: 1%;
+    margin: 3%;
+    background-color: #dcf5f5;
+}
+
+.imgindex{
+    width: 100%;
+    object-fit: cover;
 }

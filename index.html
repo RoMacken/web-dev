@@ -22,8 +22,8 @@
       </ul>
 
         <div class="row">
-            <div class="colum">
-                <img div class="left" src="img\szekszard.jpg" alt="Szekszárdi Kutyamenhely" style="width:100%">
+            <div class="column">
+                <img div class="left" src="img\szekszard.jpg" alt="Szekszárdi Kutyamenhely">
                 <div class="justifiedtext"><p>Szívemhez legközelebb álló menhely, hiszen Szekszárdon nőttem fel és 
                     többször voltunk a menhelyen kutyaházakat festeni. 1998 óta üzemel és 
                     jelenleg 216 kutya van náluk, akik örökbefogadásra várnak. Itt az örökbefogadást 
@@ -33,43 +33,44 @@
             </div>
             <div class="column">
                 <h2 div class="title"><p>FÖRI telepe</p></h2>
-                <img div class="img" src="img\fori.png" alt="FÖRI telepe" style="width:100%">
-                <div class="text"><p>Fővárosi Önkormányzati Rendészeti Igazgatóság Önkormányzati Állatvédelmi 
+                <img div class="imgindex" src="img\fori.png" alt="FÖRI telepe">
+                <div class="justifiedtext"><p>Fővárosi Önkormányzati Rendészeti Igazgatóság Önkormányzati Állatvédelmi 
                     Őrszolgálata, hozzájuk lehet Budapesten belül talált állatokat vinni, 
                     továbbá örökbe is lehet fogadni tőlük egy kisebb összeg fejében.</p></div>
+                    
+                <div class="urlap">
+                <br><br><br><br>
+                    <form id="form" action="mailto:lotzgabriella@gmail.com" name="feedback" method="post">
+                        <label for="name">Név:</label><br>
+                        <input type="text" id="name" name="name" required size="30" maxlength="60"><br><br>
+                        <label for="sex">Nem:</label><br>
+                        <input type="radio" id="no" name="sex" required value="no">
+                        <label for="no">Nő</label><br>
+                        <input type="radio" id="ferfi" name="sex" required value="ferfi">
+                        <label for="ferfi">Férfi</label><br>
+                        <input type="radio" id="egyeb" name="sex" required value="egyeb">
+                        <label for="egyeb">Egyéb</label><br><br>
+                        <label for="lname">Megjegyzés:<br>
+                        <textarea name="feedback" form="form" maxlength="200" placeholder="Maximum 200 karakter" required></textarea></label><br>
+                        <label for="not_robot">Nem vagyok robot:</label>
+                        <input type="checkbox" id="not_robot" name="not_robot" value="True" size="1221" required><br>
+                        <br>
+                        <input type="reset" value="Alaphelyzetbe állítás">
+                        <input type="submit" value="Elküldés">
+                    </form><br>
+                </div>    
             </div>
             <div class="column">
-                <img div class="img" src="img\noe.jpg" alt="Noé Állatotthon" style="width:100%">
+                <img div class="imgindex" src="img\noe.jpg" alt="Noé Állatotthon">
                 <h2 div class="title"><p>Noé állatotthon</p></h2>
-                <div class="text"><p>Ebben a budapesti állatotthonban nem csak kutyák találhatóak meg, 
+                <div class="justifiedtext"><p>Ebben a budapesti állatotthonban nem csak kutyák találhatóak meg, 
                     hanem mindenféle más háziállat. Jelen pillanatban 1121 védencük van, 
                     ebből 572 állat állandó lakójuk. Bíztatnak mindenkit az örökbefogadásra, 
                     viszont nem elpasszolni szeretnék az állatokat, felelős gazdát keresnek 
                     az összesnek.</p></div>
             </div>
         </div>
-            
-        <div class="urlap">
-            <br><br><br><br><br>
-            <form id="form" action="mailto:lotzgabriella@gmail.com" name="feedback" method="post">
-                <label for="name">Név:</label><br>
-                <input type="text" id="name" name="name" required size="30" maxlength="60"><br><br>
-                <label for="sex">Nem:</label><br>
-                <input type="radio" id="no" name="sex" required value="no">
-                <label for="no">Nő</label><br>
-                <input type="radio" id="ferfi" name="sex" required value="ferfi">
-                <label for="ferfi">Férfi</label><br>
-                <input type="radio" id="egyeb" name="sex" required value="egyeb">
-                <label for="egyeb">Egyéb</label><br><br>
-                <label for="lname">Megjegyzés:<br>
-                <textarea name="feedback" form="form" maxlength="200" placeholder="Maximum 200 karakter" required></textarea></label><br>
-                <label for="not_robot">Nem vagyok robot:</label>
-                <input type="checkbox" id="not_robot" name="not_robot" value="True" size="1221" required><br>
-                <br>
-                <input type="reset" value="Alaphelyzetbe állítás">
-                <input type="submit" value="Elküldés">
-            </form><br>
-        </div>
+        
 
 
     <footer>

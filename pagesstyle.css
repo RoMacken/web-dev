@@ -33,7 +33,7 @@ table{
     margin-bottom: 2%;
     text-align: center;
     font-size: 1.2vw;
-    font-family: 'Sans-serif', Times, serif;
+    font-family: 'Arial', sans-serif, serif;
     border: 1px solid black;
 }
 table td{
@@ -41,7 +41,7 @@ table td{
 }
 
 .imgnoe{
-    width: 47%;
+    width: 100%;
 }
 .row {
     display: flex;
