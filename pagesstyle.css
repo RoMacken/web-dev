@@ -1,0 +1,54 @@
+body{
+    background-color: beige;
+}
+
+#szeki{
+    background-color: #ffeade;
+}
+#fori{
+    background-color: #ffeade;
+}
+#noe{
+    background-color: #ffeade;
+}
+
+video{
+    float: left;
+    width: 40%;
+    height: 80%;
+    margin: 5%;
+}
+
+table{
+    width: 95%;
+    background-color: #dcf5f5;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+    text-align: center;
+    table-layout: fixed;
+    float: right;
+    margin-left: auto;
+    width: 47%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 1.2vw;
+    font-family: 'Sans-serif', Times, serif;
+    border: 1px solid black;
+}
+table td{
+    border: 1px solid black;
+}
+
+.imgnoe{
+    width: 47%;
+}
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+    margin: 1%;
+    margin-top: 2%;
+}

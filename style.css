@@ -1,5 +1,4 @@
 body{
-    background-color: #F5F5DD;
     position: relative;
     margin: 0;
     margin-top: 0;
@@ -7,7 +6,6 @@ body{
 
 header{
     width: 100%;
-    background-color: #F5F5DD;
     text-align: center;
     margin-bottom: 5vw;
     margin-top: 1vw;
@@ -55,108 +53,99 @@ ul {
     background-color: #ffeade;
   }
 
-table{
-    width: 95%;
-    background-color: #dcf5f5;
-    margin-left: 2%;
-    margin-right: 2%;
-    position: relative;
-    text-align: center;
-    table-layout: fixed;
+.img{
+    width: 47%;
+    float: right;
+    height: 100%;
+    margin: 5%;
 }
 
-  .img{
-      width: 70%;
-      height: 100%;
-      margin-bottom: 2%;
-  }
+.left{
+    width: 50%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0;
+    margin-bottom: 0.5%;
+}
 
-  .left{
-      width: 50%;
-      height: 100%;
-      float: left;
-      margin-left: 2%;
-      margin-right: 2%;
-      margin-top: 0;
-      margin-bottom: 0.5%;
-  }
+.video{
+    width: 70%;
+    height: 100%;
+    margin-bottom: 2%;
+}
 
-  .video{
-      width: 70%;
-      height: 100%;
-      margin-bottom: 2%;
-  }
-
-  .justifiedtext{
-      font-size: 1.5vw;
-      font-family: 'Times New Roman', Times, serif;
-      text-align: justify;
-      text-justify: inter-word;
+.justifiedtext{
+   font-size: 1.5vw;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: justify;
+     text-justify: inter-word;
       margin-left: 4%;
-      margin-right: 4%;
-  }
+     margin-right: 4%;
+ }
   
-  .text{
-      font-size: 1.5vw;
-      font-family: 'Times New Roman', Times, serif;
-      text-justify: inter-word;
-      margin-left: 4%;
-      margin-right: 4%;
-  }
+.text{
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-justify: inter-word;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+  
+.contact{
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
 
-  .contact{
-      font-size: 1.5vw;
-      line-height: 2.5vw;
-      font-family: 'Times New Roman', Times, serif;
-      text-align: justify;
-      text-justify: inter-word;
-      margin-left: 4%;
-      margin-right: 4%;
-      margin-bottom: 2%;
-  }
+.title{
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+}
 
-  .title{
-      font-size: 3vw;
-      font-family: 'Times New Roman', Times, serif;
-  }
+.urlap{
+    padding-top: 10%;
+    text-align: left;
+}
 
-  .urlap{
-      padding-top: 10%;
-      text-align: left;
-  }
+.urlap input{
+    height: 100%;
+    resize: none;
+    background-color: #f5dcf5;
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
 
-  .urlap input{
-      height: 100%;
-      resize: none;
-      background-color: #f5dcf5;
-      font-size: 1.5vw;
-      font-family: 'Times New Roman', Times, serif;
-      text-align: justify;
-      text-justify: inter-word;
-  }
+.urlap label{
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
 
-  .urlap label{
-      font-size: 1.5vw;
-      font-family: 'Times New Roman', Times, serif;
-      text-align: justify;
-      text-justify: inter-word;
-  }
-
-  textarea{
-      width: 100%;
-      height: 100%;
-      resize: none;
-      background-color: #f5dcf5;
-      font-size: 1.5vw;
-      font-family: 'Times New Roman', Times, serif;
-      text-align: justify;
-      text-justify: inter-word;
-  }
-  #name{
-      width: 100%;
-  }
+textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background-color: #f5dcf5;
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#name{
+    width: 100%;
+}
 
 footer{
+    width: 100%;
     background-color: #f5dcf5;
     display: flex;
     justify-content: center;
