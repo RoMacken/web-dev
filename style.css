@@ -145,16 +145,12 @@ textarea{
     width: 100%;
 }
 
-a {   
+a:link{   
     color: black;   
 }
 
-a:active {
-    color: blue;
-}
-
 a:visited {
-    color:black;
+    color:gray;
     outline: none;
 }
 
@@ -167,4 +163,25 @@ footer{
     column-gap: 10px;
     padding: 10px;
     flex-wrap: wrap;
+}
+
+@media print{
+    body{
+        background-color: white;
+    }
+    nav{
+        display: none;
+    }
+    video{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    img{
+        width: 20%;
+    }
+    footer{
+        display: none;
+    }
 }
