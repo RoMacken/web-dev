@@ -10,16 +10,19 @@ body{
     text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
-    color: aliceblue;
+    color: black;
+    background-color: aliceblue;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .row {
-    /* display: flex; */
+    display: flex;
     background-color: #dcf5f5;
   }
   
 .column {
-    /* flex: 33.33%; */
+    flex: 33.33%;
     margin: 3%;
     background-color: #dcf5f5;
 }
@@ -44,7 +47,6 @@ body{
 @media (min-width: 601px) and (max-width: 1024px) {
     .row{
         display: flex;
-        flex-wrap: wrap;
     }
     .column {
         flex: 50%;

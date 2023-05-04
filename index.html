@@ -12,7 +12,7 @@
 <body>
     <header>
         <a href="./index.html"><img div class="logo" src="img\logo-removebg-preview.png" alt="allat logo"></a>
-        <h1 id="maintitle"><p>Örökbefogadható állatok</p></h1>
+        <h1 id="maintitle">Örökbefogadható állatok</h1>
     </header>
 
     <nav><ul>
@@ -46,22 +46,29 @@
                 <div class="urlap">
                 <br><br><br><br>
                     <form id="form" action="mailto:lotzgabriella@gmail.com" name="feedback" method="post">
-                        <label for="name">Név:</label><br>
+                        <fieldset>
+                        
+                        <legend><label for="name">Név:</label></legend><br>
                         <input type="text" id="name" name="name" required size="30" maxlength="60"><br><br>
-                        <label for="sex">Nem:</label><br>
+
+                        <legend>Nem:</legend><br>
                         <input type="radio" id="no" name="sex" required value="no">
                         <label for="no">Nő</label><br>
                         <input type="radio" id="ferfi" name="sex" required value="ferfi">
                         <label for="ferfi">Férfi</label><br>
                         <input type="radio" id="egyeb" name="sex" required value="egyeb">
                         <label for="egyeb">Egyéb</label><br><br>
-                        <label for="lname">Megjegyzés:<br>
-                        <textarea name="feedback" form="form" maxlength="200" placeholder="Maximum 200 karakter" required></textarea></label><br>
+
+                        <legend><label for="feedback">Megjegyzés:</label></legend><br>
+                        <textarea id="feedback" name="feedback" form="form" maxlength="200" placeholder="Maximum 200 karakter" required></textarea><br>
+                        
                         <label for="not_robot">Nem vagyok robot:</label>
                         <input type="checkbox" id="not_robot" name="not_robot" value="True" size="1221" required><br>
                         <br>
                         <input type="reset" value="Alaphelyzetbe állítás">
                         <input type="submit" value="Elküldés">
+
+                        </fieldset>
                     </form><br>
                 </div>    
             </div>

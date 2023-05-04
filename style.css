@@ -131,6 +131,18 @@ ul {
     text-justify: inter-word;
 }
 
+fieldset{
+    border: none;
+    margin-bottom: 2%;
+}
+
+legend{
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 textarea{
     width: 100%;
     height: 100%;
@@ -155,7 +167,6 @@ a:visited {
 }
 
 footer{
-    font-size: 1.6vw;
     width: 100%;
     background-color: #f5dcf5;
     display: flex;
@@ -163,6 +174,10 @@ footer{
     column-gap: 10px;
     padding: 10px;
     flex-wrap: wrap;
+}
+
+#footer{
+    font-size: 1.6vw;
 }
 
 @media print{
@@ -175,12 +190,36 @@ footer{
     video{
         display: none;
     }
+    #print{
+        display: none;
+    }
     .logo{
         display: none;
     }
     img{
-        width: 20%;
+        width: 50%;
     }
+    #printimg{
+        width: 50%;
+    }
+    .img{
+        width: 50%;
+    }
+    .imgnoe{
+        width: 30% !important;
+    }
+    .szekiimg{
+        width: 50%;
+    }
+    .left{
+        width: 50%;
+    }
+    .imgindex{
+        width: 50%;
+    }
+    .w-100 {
+        width: 50% !important;
+      }
     footer{
         display: none;
     }
