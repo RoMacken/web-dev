@@ -1,10 +1,10 @@
-body{
+body {
     background-image: url('img/szeki1.jpg');
     background-size: 50%;
     background-repeat: repeat;
 }
 
-#maintitle{
+#maintitle {
     font-size: 3vw;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -19,8 +19,8 @@ body{
 .row {
     display: flex;
     background-color: #dcf5f5;
-  }
-  
+}
+
 .column {
     flex: 33.33%;
     margin: 3%;
@@ -32,36 +32,36 @@ body{
     object-fit: cover;
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 1024px) {
+
     .row {
         display: flex;
-        flex-wrap: wrap;
     }
-  
-    .column {
-        flex: 100%;
-        margin: 2%;
-    }
-  }
-  
-@media (min-width: 601px) and (max-width: 1024px) {
-    .row{
-        display: flex;
+
+    .imgindex{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
     }
     .column {
         flex: 50%;
     }
-  }
-  
-@media (min-width: 1025px) {
+}
+
+@media (max-width: 768px) {
     .row {
         display: flex;
-      }
-      
-    .column {
-        flex: 33.33%;
-        margin: 3%;
+        flex-wrap: wrap;
     }
-  }
-  
-  
+
+    .imgindex{
+        width: 50%;
+        object-fit: cover;
+    }
+    .column {
+        flex: 100%;
+        margin: 2%;
+    }
+}

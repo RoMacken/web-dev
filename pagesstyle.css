@@ -63,6 +63,12 @@ table td{
     .row {
       flex-direction: column;
     }
+    .imgnoe{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
     
     .column {
       flex: auto;
