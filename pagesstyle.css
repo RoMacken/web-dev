@@ -45,6 +45,12 @@ table td{
     border: 1px solid black;
 }
 
+.btn{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .imgnoe{
     width: 100%;
 }

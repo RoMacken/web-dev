@@ -16,12 +16,12 @@ body {
     margin-right: 30%;
 }
 
-.row {
+.rowindex {
     display: flex;
     background-color: #dcf5f5;
 }
 
-.column {
+.columnindex {
     flex: 33.33%;
     margin: 3%;
     background-color: #dcf5f5;

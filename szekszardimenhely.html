@@ -9,9 +9,11 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
     crossorigin="anonymous"
     />
-    <link href="./pagesstyle.css" rel="stylesheet" type="text/css"/>
-    <link href="./style.css" rel="stylesheet" type="text/css"/>
+    <link href="./pagesstyle.css" rel="stylesheet" type="text/css" title="normal">
+    <link href="./style.css" rel="stylesheet" type="text/css" title="normal">
+    <link rel="alternative stylesheet" type="text/css" href="highcontrast.css" title="nagybetus">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="highcontrast.js"></script>
     <link rel="icon" type="image/jpg" href="img\logo-removebg-preview.png">
     <title>Szekszárdi Kutyamenhely</title>
 </head>
@@ -21,7 +23,7 @@
     </script>
 
     <header>
-        <a href="./index.html"><img div class="logo" src="img\logo-removebg-preview.jpg" alt="allat logo"></a>
+        <a href="./index.html"><img div class="logo" src="img\logo-removebg-preview.png" alt="allat logo"></a>
         <h1>Szekszárdi Kutyamenhely</h1>
     </header>
 
@@ -30,7 +32,10 @@
         <li><a href="foritelep.html">FÖRI telepe</a></li>
         <li><a href="noeotthon.html">Noé Állatotthon Alapítvány</a></li>
       </ul>
-    </nav>  
+    </nav> 
+    <nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Nagybetűs változat</a>
+      <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál változat</a>
+    </nav>
 
     <div class="row">
         <div class="column">

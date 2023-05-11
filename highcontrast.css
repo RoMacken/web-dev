@@ -6,3 +6,119 @@ body{
 
 a#nagybetu {display: none;}	
 a#normalbetu {display: block;}
+
+nav#gyengenlato { width:400px;}	
+
+#index {
+    background-image: url('img/szeki1.jpg');
+    background-size: 50%;
+    background-repeat: repeat;
+}
+
+body{
+    background-color: #fff;
+}
+h1{
+    font-size: 5vw;
+}
+h2{
+    font-size: 4vw;
+}
+
+#maintitle {
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: black;
+    background-color: aliceblue;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.rowindex {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+
+.columnindex {
+    flex: 33.33%;
+    margin: 3%;
+    background-color: #fff;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.imgindex {
+    width: 100%;
+    object-fit: cover;
+}
+
+ul{
+    background-color: #fff;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 3vw;
+    padding: 1vw 1.2vw;
+    text-decoration: none;
+  }
+
+a:visited{
+    color:rgb(0, 0, 0);
+}
+
+.justifiedtext{
+    font-size: 3vw;
+ }
+  
+.text{
+    font-size: 3vw;
+}
+  
+.contact{
+    font-size: 3vw;
+    line-height: 4vw;
+}
+
+.title{
+    font-size: 6vw;
+}
+
+.szekiimg{
+    width: 100%;
+    margin: 2%;
+}
+
+.urlap label{
+    font-size: 3vw;
+}
+
+legend{
+    font-size: 3vw;
+}
+
+textarea{
+    font-size: 3vw;
+}
+
+.btn{
+    font-size: 3vw;
+}
+
+table{
+    margin: 5%;
+    width: 90%;
+    font-size: 3vw;
+    border: 0.2vw solid black;
+}
+table td{
+    border: 0.1vw solid black;
+}

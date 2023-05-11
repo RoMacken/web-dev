@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-    crossorigin="anonymous"
-    />
-    <link href="./style.css" rel="stylesheet" type="text/css"/>
-    <link href="./pagesstyle.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link href="./style.css" rel="stylesheet" type="text/css" title="normal">
+    <link href="./pagesstyle.css" rel="stylesheet" type="text/css" title="normal">
+    <link rel="alternative stylesheet" type="text/css" href="highcontrast.css" title="nagybetus">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/jpg" href="img\logo-removebg-preview.png">
+    <script src="highcontrast.js"></script>
+    <link rel="icon" type="image/jpg" href="img/logo-removebg-preview.png">
     <title>FÖRI telepe</title>
 </head>
 <body>
     <header>
-        <a href="./index.html"><img div class="logo" src="img\logo-removebg-preview.jpg" alt="allat logo"></a>
+        <div>
+            <a href="./index.html"><img class="logo" src="img/logo-removebg-preview.png" alt="allat logo"></a>
+        </div>
         <h1>FÖRI telepe</h1>
     </header>
 
@@ -27,16 +26,16 @@
         <li><a href="noeotthon.html">Noé Állatotthon Alapítvány</a></li>
       </ul>
     </nav>
+    <nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Nagybetűs változat</a>
+        <a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál változat</a>
+    </nav>
+
     <div class="left">
-        <video width="75%" controls poster="img/forivideo.png">
+        <video controls poster="img/forivideo.png">
             <source src="img/foritelep.mp4" type="video/mp4">
           Videó a telepről
         </video>
-        <center>
-            <a id="print" type="button" class="btn btn-outline-light" href="video.xhtml" >
-            Transzkript
-            </a>
-        </center>
+        <a id="print" class="btn btn-outline-light" href="video.xhtml">Transzkript</a>
             
     </div>
 
@@ -57,6 +56,17 @@
     </div>
     </section>
     <table>
+        <caption>
+            <details>
+                <summary>
+                    Táblázat összefoglaló
+                </summary>
+                <p>
+                    Azt mutatja, hogy az évek során mennyi macska került be a telepre, és mennyi lett örökbefogadva.
+                    Láthatjuk, hogy jóval több macska kerül be, mint amennyit örökbefogadnak.
+                </p>
+            </details>
+        </caption>
         <tr>
             <th>Macskák</th>
             <th>2022</th>
@@ -78,18 +88,8 @@
             <td>201</td>
             <td>224</td>
         </tr>
-        <caption>
-            <details>
-                <summary>
-                    Táblázat összefoglaló
-                </summary>
-                <p>
-                    Azt mutatja, hogy az évek során mennyi macska került be a telepre, és mennyi lett örökbefogadva.
-                    Láthatjuk, hogy jóval több macska kerül be, mint amennyit örökbefogadnak.    
-                </p>
-            </details>
-        </caption>
     </table>
+    
     <div class="contact">
         <h2>Elérhetőségek</h2>
             <b>Honlap:</b> <a href="https://ebtelep.hu/ " target="_blank">https://ebtelep.hu/ </a><br>
