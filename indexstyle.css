@@ -5,7 +5,7 @@ body {
 }
 
 #maintitle {
-    font-size: 3vw;
+    font-size: 3em;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 2%;
@@ -35,7 +35,7 @@ body {
 
 @media (max-width: 1024px) {
 
-    .row {
+    .rowindex {
         display: flex;
     }
 
@@ -45,13 +45,13 @@ body {
         margin-right: auto;
         width: 60%;
     }
-    .column {
+    .columnindex {
         flex: 50%;
     }
 }
 
 @media (max-width: 768px) {
-    .row {
+    .rowindex {
         display: flex;
         flex-wrap: wrap;
     }
@@ -60,7 +60,7 @@ body {
         width: 50%;
         object-fit: cover;
     }
-    .column {
+    .columnindex {
         flex: 100%;
         margin: 2%;
     }

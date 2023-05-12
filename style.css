@@ -13,6 +13,8 @@ header{
 
 #gyengenlato{
     background-color: #dcf5f5;
+    font-size: 1.5vw;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 h1{
@@ -113,6 +115,10 @@ ul {
     text-align: center;
 }
 
+form{
+    font-size: 1.5vw;
+}
+
 .urlap{
     padding-top: 10%;
     text-align: left;
@@ -159,6 +165,11 @@ textarea{
 }
 #name{
     width: 100%;
+}
+
+figcaption{
+    font-size: 1vw;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 a:link{   

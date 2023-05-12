@@ -6,14 +6,16 @@
     <link href="./indexstyle.css" rel="stylesheet" type="text/css" title="normal">
     <link href="./style.css" rel="stylesheet" type="text/css" title="normal">
     <link rel="alternative stylesheet" type="text/css" href="highcontrast.css" title="nagybetus">
-    <script type="text/javascript" src="highcontrast.js"></script>
+    <script src="highcontrast.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/jpg" href="img\logo-removebg-preview.png">
-    <title>Örökbefogadható állatok</title>
+    <link rel="icon" type="image/jpg" href="img/logo-removebg-preview.png">
+    <title>Örökbefogadható állatok - Kezdőlap</title>
 </head>
 <body id="index">
     <header>
-        <a href="./index.html"><img div class="logo" src="img\logo-removebg-preview.png" alt="allat logo"></a>
+        <div>
+            <a href="./index.html"><img class="logo" src="img/logo-removebg-preview.png" alt="allat logo"></a>
+        </div>
         <h1 id="maintitle">Örökbefogadható állatok</h1>
     </header>
 
@@ -29,7 +31,7 @@
 
         <div class="rowindex">
             <div class="columnindex">
-                <img class="left" src="img\szekszard.jpg" alt="Szekszárdi Kutyamenhely">
+                <img class="left" src="img/szekszard.jpg" alt="Szekszárdi Kutyamenhely">
                 <div class="justifiedtext"><p>Szívemhez legközelebb álló menhely, hiszen Szekszárdon nőttem fel és 
                     többször voltunk a menhelyen kutyaházakat festeni. 1998 óta üzemel és 
                     jelenleg 216 kutya van náluk, akik örökbefogadásra várnak. Itt az örökbefogadást 
@@ -43,42 +45,48 @@
                 <div class="title">
                     <h2 class="title">FÖRI telepe</h2>
                 </div>
-                <img class="imgindex" src="img\fori.png" alt="FÖRI telepe">
+                <img class="imgindex" src="img/fori.png" alt="FÖRI telepe">
                 <div class="justifiedtext"><p>Fővárosi Önkormányzati Rendészeti Igazgatóság Önkormányzati Állatvédelmi 
                     Őrszolgálata, hozzájuk lehet Budapesten belül talált állatokat vinni, 
                     továbbá örökbe is lehet fogadni tőlük egy kisebb összeg fejében.</p></div>
                     
                 <div class="urlap">
                 <br><br><br><br>
-                    <form id="form" action="mailto:lotzgabriella@gmail.com" name="feedback" method="post">
-                        <fieldset>
-                        
-                        <legend><label for="name">Név:</label></legend><br>
-                        <input type="text" id="name" name="name" required size="30" maxlength="60"><br><br>
-
-                        <legend>Nem:</legend><br>
+                <form id="form" action="mailto:lotzgabriella@gmail.com" name="feedback" method="post">
+                    <fieldset>
+                      <legend>Visszajelzés: </legend>
+                      <div><br>
+                        <label for="name">Név:</label>
+                        <input type="text" id="name" name="name" required size="30" maxlength="60">
+                      </div><br>
+                      <div>
+                        Nem: <br>
                         <input type="radio" id="no" name="sex" required value="no">
-                        <label for="no">Nő</label><br>
+                        <label for="no">Nő</label>
                         <input type="radio" id="ferfi" name="sex" required value="ferfi">
-                        <label for="ferfi">Férfi</label><br>
+                        <label for="ferfi">Férfi</label>
                         <input type="radio" id="egyeb" name="sex" required value="egyeb">
-                        <label for="egyeb">Egyéb</label><br><br>
-
-                        <legend><label for="feedback">Megjegyzés:</label></legend><br>
-                        <textarea id="feedback" name="feedback" form="form" maxlength="200" placeholder="Maximum 200 karakter" required></textarea><br>
-                        
+                        <label for="egyeb">Egyéb</label>
+                      </div>
+                      <div><br>
+                        <label for="feedback">Megjegyzés:</label>
+                        <textarea id="feedback" name="feedback" form="form" maxlength="200" placeholder="Maximum 200 karakter" required></textarea>
+                      </div>
+                      <div><br>
                         <label for="not_robot">Nem vagyok robot:</label>
-                        <input type="checkbox" id="not_robot" name="not_robot" value="True" size="1221" required><br>
-                        <br>
+                        <input type="checkbox" id="not_robot" name="not_robot" value="True" required>
+                      </div>
+                      <div><br>
                         <input type="reset" value="Alaphelyzetbe állítás">
                         <input type="submit" value="Elküldés">
-
-                        </fieldset>
-                    </form><br>
+                      </div>
+                    </fieldset>
+                  </form>
+                  <br>
                 </div>    
             </div>
             <div class="columnindex">
-                <img class="imgindex" src="img\noe.jpg" alt="Noé Állatotthon">
+                <img class="imgindex" src="img/noe.jpg" alt="Noé Állatotthon">
                 <section>
                 <div class="title">
                     <h2 class="title">Noé állatotthon</h2>
