@@ -14,7 +14,7 @@ body{
 
 .left{
     float: left;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 video{
@@ -27,21 +27,20 @@ video{
 
 table{
     background-color: #dcf5f5;
-    margin-left: 2%;
-    margin-right: 2%;
     position: relative;
     text-align: center;
-    table-layout: fixed;
-    float: right;
     margin-left: auto;
     width: 44%;
     margin-bottom: 2%;
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1em;
     font-family: 'Arial', sans-serif, serif;
     border: 1px solid black;
 }
 table td{
+    border: 1px solid black;
+}
+table th{
     border: 1px solid black;
 }
 
@@ -57,26 +56,41 @@ table td{
 .row {
     display: flex;
     flex-direction: row;
-  }
+}
   
-  .column {
+.column {
     flex: 1;
     margin: 1%;
     margin-top: 5%;
-  }
+}
+
+.szekiimg{
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
 
 
 @media (max-width: 1024px) {
-    table{
-        width: 90%;
-        margin-left: auto;
-        margin-right: 2%;
-    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .table {
+        flex: 0 0 60%;
+      }
+      .contact {
+        flex: 0 0 40%;
+        margin-left: 30px;
+      }
+
 }
   
 @media (max-width: 768px) {
     .row {
-      flex-direction: column;
+        flex-direction: column;
     }
     .imgnoe{
         width: 80%;
@@ -86,15 +100,20 @@ table td{
     }
     
     .column {
-      flex: auto;
-      margin: 1%;
-      margin-top: 2%;
+        flex: auto;
+        margin: 1%;
+        margin-top: 2%;
     }
+
+    .container{
+        display: block;
+    }
+  
+    .table-responsive, .contact {
+        flex-basis: auto;
+        padding: 0;
+    }
+
 }
   
   
-.szekiimg{
-    width: 100%;
-    margin-bottom: 10%;
-    margin-top: 5%;
-}

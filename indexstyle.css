@@ -12,8 +12,8 @@ body {
     margin-bottom: 2%;
     color: black;
     background-color: aliceblue;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .rowindex {
@@ -63,5 +63,13 @@ body {
     .columnindex {
         flex: 100%;
         margin: 2%;
+    }
+
+    #maintitle{
+        font-size: 2em;
+    }
+
+    ul {
+        font-size: 0.8em;
     }
 }
