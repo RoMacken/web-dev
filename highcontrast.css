@@ -78,19 +78,18 @@ a:visited{
 .justifiedtext{
     font-size: 1.5em;
 }
-/*from here*/
 
 .text{
-    font-size: 3vw;
+    font-size: 1.5em;
 }
   
 .contact{
-    font-size: 3vw;
-    line-height: 4vw;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 
 .title{
-    font-size: 6vw;
+    font-size: 1.5em;
 }
 
 .szekiimg{
@@ -99,33 +98,37 @@ a:visited{
 }
 
 .urlap label{
-    font-size: 3vw;
+    font-size: 1.5em;
 }
 
 legend{
-    font-size: 3vw;
+    font-size: 1.5em;
 }
 
 form{
-    font-size: 3vw;
+    font-size: 1.5em;
 }
 
 textarea{
-    font-size: 3vw;
+    font-size: 1em;
 }
 
 .btn{
-    font-size: 3vw;
+    font-size: 1.5em;
 }
 
 figcaption{
-    font-size: 3vw;
+    font-size: 1em;
+}
+
+h3{
+    font-size: 1.6em;
 }
 
 table{
     margin: 5%;
-    width: 90%;
-    font-size: 3vw;
+    width: 80%;
+    font-size: 1.5em;
     border: 0.2vw solid black;
 }
 table td{
@@ -187,4 +190,5 @@ table td{
         margin-right: auto;
         display: block;
     }
+
 }
